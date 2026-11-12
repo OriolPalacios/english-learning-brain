@@ -1,0 +1,15 @@
+# Never commit local user/project configuration or credentials
+config.local.md
+config.local.yaml
+config.local.yml
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*
+*secret*
+.DS_Store
+__pycache__/
